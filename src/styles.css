@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10rem;
+  height: 12rem;
+  width: 12rem;
+  border: 1px gray solid;
+  margin-right: 2rem;
+}
